@@ -36,9 +36,9 @@ Update failed on http://localhost:3000
 put (1 => b)
 Server http://localhost:3002 has value b
 Server http://localhost:3001 has value b
-Server http://localhost:3000 has value a
-hi this is in completed
-value put on serverhttp://localhost:3000
+
+
+value put on serverhttp://localhost:3000 as read repair
 Step 3: get(1) => b
 Exiting Client...
 
